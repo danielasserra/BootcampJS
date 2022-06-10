@@ -1,6 +1,5 @@
 //Actividad 1
 
-
 var correo;
 var contraseña;
 var confirmarCorreo;
@@ -29,7 +28,7 @@ var remeraRoja;
 
 añoDeNac = parseInt (prompt('ingrese su año de nacimiento'))
 var mayorDeEdad = 2004;
-var remeraRoja = true;
+var remeraRoja = confirm('¿tu remera es roja?');
 
 if ((añoDeNac <= mayorDeEdad) && (remeraRoja == true)){
     alert('¡Bienvenido!')
